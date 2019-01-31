@@ -1,8 +1,8 @@
 <?php
-	$server		= "localhost"; //sesuaikan dengan nama server
-	$user		= "root"; //sesuaikan username
-	$password	= ""; //sesuaikan password
-	$database	= "taysbakers"; //sesuaikan target databese
+	$server		= "35.247.129.203"; //sesuaikan dengan nama server
+	$user		= "yosuatest"; //sesuaikan username
+	$password	= "test123"; //sesuaikan password
+	$database	= "techtest"; //sesuaikan target databese
 
 	$con = mysqli_connect($server, $user, $password, $database);
 	if (mysqli_connect_errno()) {
